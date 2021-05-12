@@ -1,9 +1,11 @@
+/*Open Sans and Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap');
+
+
 body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family: Roboto
 }
 
-.hero-image {
-    height: 600px;
-    width: 100%;
-    background: url ('../images/Beware-of-sharks-circling.jpg') no-repeat center;
+body h1 {
+    font-family: OpenSans
 }
