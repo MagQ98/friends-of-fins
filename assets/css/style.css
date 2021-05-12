@@ -1,3 +1,9 @@
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
+
+.hero-image {
+    height: 600px;
+    width: 100%;
+    background: url ('../images/Beware-of-sharks-circling.jpg') no-repeat center;
+}
