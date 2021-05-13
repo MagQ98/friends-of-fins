@@ -1,11 +1,20 @@
-/*Open Sans and Roboto */
+/* Open Sans h and Roboto p */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* Body*/
 
 body {
-    font-family: Roboto
+    font-family: Roboto, sans-serif
 }
 
 body h1 {
-    font-family: OpenSans
+    font-family: OpenSans, sans-serif
 }
+
+/* Header */
