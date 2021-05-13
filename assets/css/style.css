@@ -10,11 +10,9 @@
 /* Body*/
 
 body {
-    font-family: Roboto, sans-serif
+    font-family: Roboto, sans-serif;
 }
 
-body h1 {
-    font-family: OpenSans, sans-serif
+h1 {
+    font-family: Open Sans, sans-serif;
 }
-
-/* Header */
