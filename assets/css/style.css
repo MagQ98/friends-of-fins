@@ -13,6 +13,34 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-h1 {
+h1, h2 {
     font-family: Open Sans, sans-serif;
 }
+
+/* Nav bar */
+
+#nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    align-items: center;
+    background-color: lightseagreen;
+  }
+  
+  #nav-bar li {
+    float: left;
+  }
+  
+  #nav-bar a {
+    display: block;
+    padding: 30px 90px;
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+  }
+
+  #nav-bar a:hover {
+      background-color: white;
+      color: seagreen;
+  }
