@@ -14,7 +14,7 @@ body {
 }
 
 h1, h2 {
-    font-family: Open Sans, sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 /* Nav bar */
@@ -24,8 +24,9 @@ h1, h2 {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    align-items: center;
-    background-color: lightseagreen;
+    align-items: center center;
+    background-color: #336699;
+    width: 100%;
   }
   
   #nav-bar li {
@@ -42,5 +43,29 @@ h1, h2 {
 
   #nav-bar a:hover {
       background-color: white;
-      color: seagreen;
+      color: #336699;
+  }
+
+  /* Hero Image */
+
+  #hero-outer {
+    position: relative;
+  }
+
+  #hero-image {
+    height: 400px;
+    width: 100%;
+    background: url('../images/great-white-shark.jpg') no-repeat center center;
+    background-color: #336699;
+    position: relative;
+  }
+
+  #logo-image {
+    width: 300px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: #336699;
+    bottom: 90px;
+    position: absolute
   }
