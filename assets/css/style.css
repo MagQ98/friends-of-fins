@@ -26,7 +26,7 @@ h1 {
   text-align: center;
   font-size: 250%;
   letter-spacing: 1px;
-  color: #336699;
+  color: #2C97B9;
   text-shadow: 2px 2px 5px #3a3a3a;
 }
 
@@ -81,13 +81,13 @@ ul, ol {
   #hero-image {
     height: 540px;
     width: 100%;
-    background: url('../images/shark-header.jpg') no-repeat center center;
+    background: url('../images/cover-image.png') no-repeat center center;
     background-color: #6FCDF1;
     position: relative;
   }
 
   #logo-image {
-    background-image: url('../images/great-white-shark.jpg');
+    background-image: url('../images/logo\ \(2\).png');
     position: absolute;
     top: 0;
     bottom: 0;
@@ -99,7 +99,7 @@ ul, ol {
     overflow: hidden;
   }
 
-  /* Species images */
+  /* Species images and text */
 
   #photos {
     margin: 0 auto;
@@ -126,4 +126,10 @@ ul, ol {
     text-align: center;
     font-family: Roboto, sans-serif;
     font-size: x-large;
+  }
+
+  #species-text {
+    padding: 40px 100px 30px;
+    border: 2px solid #6FCDF1;
+    color: #3a3a3a;
   }
