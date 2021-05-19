@@ -41,10 +41,6 @@ ul, ol {
   list-style-position: inside;
 }
 
-#top-pad {
-  margin-top: 80px;
-}
-
 /* Nav bar */
 
 #nav-bar {
@@ -55,7 +51,7 @@ ul, ol {
     align-items: center center;
     background-color: #336699;
     width: 100%;
-    position: absolute;
+    position: relative;
     text-align: center;
   }
   
@@ -103,9 +99,19 @@ ul, ol {
     overflow: hidden;
   }
 
-  #species {
-    max-width: 50px;
-    height: 50px;
-    background-color: #336699;
-    position: relative;
+  /* Species images */
+
+  #photos {
+    clear: both;
+    display: block;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    line-height: 0;
+    column-count: 2;
+    column-gap: 0px;
+  }
+
+  #photos > img {
+    width: 100%;
   }
