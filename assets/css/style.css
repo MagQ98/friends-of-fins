@@ -49,7 +49,7 @@ ul, ol {
     padding: 0;
     overflow: hidden;
     align-items: center center;
-    background-color: #336699;
+    background-color: #6FCDF1;
     width: 100%;
     position: relative;
     text-align: center;
@@ -69,7 +69,7 @@ ul, ol {
 
   #nav-bar a:hover {
       background-color: white;
-      color: #336699;
+      color: #6FCDF1;
   }
 
   /* Hero Image */
@@ -82,7 +82,7 @@ ul, ol {
     height: 540px;
     width: 100%;
     background: url('../images/shark-header.jpg') no-repeat center center;
-    background-color: #336699;
+    background-color: #6FCDF1;
     position: relative;
   }
 
@@ -102,16 +102,28 @@ ul, ol {
   /* Species images */
 
   #photos {
-    clear: both;
-    display: block;
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    line-height: 0;
-    column-count: 2;
-    column-gap: 0px;
+    margin: 0 auto;
+    margin-left: 10%;
+    margin-top: 20px;
   }
 
-  #photos > img {
-    width: 100%;
+  .gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 350px;
+    display: inline;
+    text-align: center;
+  }
+
+  .gallery img {
+    width: 350px;
+    height: 300px;
+  }
+
+  .shark-name {
+    padding: 15px;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: x-large;
   }
