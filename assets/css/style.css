@@ -6,10 +6,6 @@
     padding: 0;
     border: none;
 }
-.home-text {
-  padding: 30px 100px 30px;
-  text-align: justify;
-}
 
 /* Body*/
 
@@ -39,6 +35,11 @@ p, li {
 
 ul, ol {
   list-style-position: inside;
+}
+
+.home-text {
+  padding: 30px 100px 30px;
+  text-align: justify;
 }
 
 /* Nav bar */
@@ -107,7 +108,7 @@ ul, ol {
         transform: scale(1);
     }
     to{
-        transform: scale(1.2);
+        transform: scale(1.35);
     }
 }
 
