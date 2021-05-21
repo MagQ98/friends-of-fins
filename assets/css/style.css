@@ -133,3 +133,20 @@ ul, ol {
     border: 2px solid #6FCDF1;
     color: #3a3a3a;
   }
+
+  /* Donate Page */
+
+  #donate {
+    float: none;
+    width: 20%;
+    margin-left: 20%;
+}
+
+  #donate img {
+    width: 100%;
+    height: 300px;
+  }
+
+  #donate a {
+    text-align: center;
+  }
