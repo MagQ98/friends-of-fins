@@ -145,6 +145,7 @@ ul {
     padding: 40px 100px 30px;
     border: 2px solid #6FCDF1;
     color: #3a3a3a;
+    border-top: white;
   }
 
   /* Donate Page */
@@ -171,4 +172,54 @@ ul {
 
   .donate-text {
     padding: 40px 100px 30px;
+  }
+
+  /* Facts Page */
+
+  #fact-text {
+    text-align: center;
+    color: #3a3a3a;
+    font-size: x-large;
+  }
+
+  .fact-box1 {
+    padding: 40px 100px 30px;
+    border: 2px solid #2C97B9;
+    margin: 5px;
+  }
+
+  .fact-box2 {
+    padding: 40px 100px 30px;
+    border: 2px solid #98AFBA;
+    margin: 5px;
+  }
+
+  .fact-box3 {
+    padding: 40px 100px 30px;
+    border: 2px solid #6FCDF1;
+    margin: 5px;
+  }
+
+  .fact-hide1 {
+    background-color: #2C97B9;
+    color: white;
+    padding: 20px;
+    display: none;
+  }
+
+  .fact-hide2 {
+    background-color: #98AFBA;
+    color: white;
+    padding: 20px;
+    display: none;
+  }
+
+  .fact-hide3 {
+    background-color: #6FCDF1;
+    color: white;
+    padding: 20px;
+    display: none;
+  }
+  .fact-head:hover + div {
+    display: block;
   }
