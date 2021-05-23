@@ -156,6 +156,19 @@ ul {
     margin-top: 20px;
   }
 
+  #donate a:link {
+    text-decoration: none;
+    color: #2C97B9
+  }
+
+  a:visited {
+    text-decoration: none;
+    color: #98AFBA;
+  }
+
+  #donate a:hover {
+    text-decoration: underline;
+  }
   .donate-image {
     margin: 10px;
     float: left;
