@@ -148,6 +148,15 @@ ul {
     border-top: white;
   }
 
+  .grow img{
+    transition: 1s ease;
+    }
+    
+    .grow img:hover{
+    transform: scale(1.2);
+    transition: 1s ease;
+    }
+
   /* Donate Page */
 
   #donate {
