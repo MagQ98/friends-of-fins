@@ -250,3 +250,45 @@ a:visited {
 .fact-head:hover+div {
   display: block;
 }
+
+/* Media queries */
+
+@media screen and (max-width: 1200px) {
+  #nav-bar {
+    width: 100%;
+  }
+
+  #nav-bar a {
+    padding: 30px 140px;
+    margin: 10px;
+  }
+
+  .gallery {
+    margin: 5%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  #nav-bar {
+    width: 100%;
+  }
+
+  #nav-bar a {
+    padding: 30px 160px;
+    margin: 10px;
+  }
+
+  .donate-image {
+    padding-left: 0%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .donate-image {
+    padding-left: 15%;
+  }
+
+  .gallery {
+    margin-left: 20%;
+  }
+}
