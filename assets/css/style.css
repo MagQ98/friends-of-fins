@@ -97,6 +97,10 @@ ul {
   color: #6FCDF1;
 }
 
+footer {
+  clear: both;
+}
+
 /* Hero Image */
 
 #hero-outer {
