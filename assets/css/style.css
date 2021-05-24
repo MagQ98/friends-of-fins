@@ -14,8 +14,7 @@ body {
   line-height: 1.6;
 }
 
-h1,
-h2 {
+h1, h2, h3 {
   font-family: "Open Sans", sans-serif;
 }
 
@@ -26,9 +25,15 @@ h1 {
   color: #2C97B9;
   text-shadow: 2px 2px 5px #3a3a3a;
 }
+h3 {
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 150%;
+  color: #3a3a3a;
+  text-decoration: underline;
+}
 
-p,
-li {
+p, li {
   text-align: center;
   font-size: 150%;
   color: #3a3a3a;
@@ -72,6 +77,23 @@ ul {
 
 #nav-bar a:hover {
   background-color: white;
+  color: #6FCDF1;
+}
+
+/* Footer */
+
+.social-links {
+  text-align: center;
+}
+
+.social-links>li {
+  display: inline;
+}
+
+.social-links i {
+  font-size: 180%;
+  margin: 1%;
+  padding: 3%;
   color: #6FCDF1;
 }
 
@@ -121,6 +143,7 @@ ul {
   margin: 0 auto;
   margin-left: 10%;
   margin-top: 20px;
+  text-align: center;
 }
 
 .gallery {
