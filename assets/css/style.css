@@ -227,55 +227,55 @@ a:visited {
   padding: 40px 100px 30px;
 }
 
+
 /* Facts Page */
 
-#fact-text {
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div {
   text-align: center;
-  color: #3a3a3a;
-  font-size: x-large;
+  padding: 20px 0;
+  font-size: 30px;
+  border: solid 3px #808080;
+  border-style: solid;
+  border-radius: 25px;
 }
 
-.fact-box1 {
-  padding: 40px 100px 30px;
-  border: 2px solid #2C97B9;
-  margin: 5px;
+.grid-container h3 {
+  font-size: medium;
+  font-family: Roboto, sans-serif;
+  color: white;
 }
 
-.fact-box2 {
-  padding: 40px 100px 30px;
-  border: 2px solid #98AFBA;
-  margin: 5px;
+.grid-container p {
+  font-size: small;
+  color: white;
 }
 
-.fact-box3 {
-  padding: 40px 100px 30px;
-  border: 2px solid #6FCDF1;
-  margin: 5px;
+.grow {
+  transition: 1s ease;
 }
 
-.fact-hide1 {
+.grow:hover {
+  transform: scale(1.2);
+  transition: 1s ease;
+}
+
+.fact-color1 {
   background-color: #2C97B9;
-  color: white;
-  padding: 20px;
-  display: none;
 }
 
-.fact-hide2 {
+.fact-color2 {
   background-color: #98AFBA;
-  color: white;
-  padding: 20px;
-  display: none;
 }
 
-.fact-hide3 {
+.fact-color3 {
   background-color: #6FCDF1;
-  color: white;
-  padding: 20px;
-  display: none;
-}
-
-.fact-head:hover+div {
-  display: block;
 }
 
 /* Media queries */
@@ -303,11 +303,20 @@ a:visited {
   #nav-bar a {
     padding: 30px 160px;
     margin: 10px;
+    font-size: large;
+    padding-left: 30%;
+    overflow-x: hidden;
   }
 
   .donate-image {
     padding-left: 0%;
   }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -317,5 +326,15 @@ a:visited {
 
   .gallery {
     margin-left: 20%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .donate-image {
+    padding-left: 0;
+  }
+
+  #donate {
+    padding-left: 5%;
   }
 }
