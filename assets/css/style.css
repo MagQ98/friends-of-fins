@@ -105,7 +105,7 @@ footer {
   clear: both;
 }
 
-/* Hero Image */
+/* Hero and Homepage Image */
 
 #hero-outer {
   position: relative;
@@ -143,6 +143,26 @@ footer {
   to {
     transform: scale(1.35);
   }
+}
+
+.home-div {
+  display: block;
+}
+
+.home-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: 350px;
+  border: 1px solid #3a3a3a
+}
+
+.home-video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 /* Species images and text */
