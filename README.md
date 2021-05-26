@@ -1,5 +1,3 @@
-![alt-text](assets/images/responsive.JPG)
-
 <img src="assets/images/responsive.JPG" alt="Responsive Mockup" style="max-width:100%;">
 
 Features
@@ -7,45 +5,59 @@ Features
 
 ### Navigation Bar
 
-Featured on all 4 webpages⋅⋅
-Aids visiters in accessing information⋅⋅
-Utilizes hyperlinks to navigate visitors⋅⋅
+⋅⋅⋅Featured on all 4 webpages⋅⋅
+⋅⋅⋅Aids visiters in accessing information⋅⋅
+⋅⋅⋅Utilizes hyperlinks to navigate visitors⋅⋅
+
+<img src="assets/images/navbar.JPG" alt="Navigation Bar" style="max-width:100%;">
 
 ### Hero and Logo image
 
-Featured on all 4 webpages⋅⋅
-Visually communicates the identity of the site and what it represents⋅⋅
-A symbol for customers to recognise the organisation ⋅⋅
+⋅⋅⋅Featured on all 4 webpages⋅⋅
+⋅⋅⋅Visually communicates the identity of the site and what it represents⋅⋅
+⋅⋅⋅A symbol for customers to recognise the organisation ⋅⋅
+
+<img src="assets/images/hero-logo-image.JPG" alt="Hero and Logo image" style="max-width:100%;">
 
 ### Home Page
 
-Displays the main focus of the site which is to educate people about the dangers sharks are in⋅⋅
-Piques the interests of visiters to give them a overall impression of what the organisations is working for⋅⋅
+⋅⋅⋅Displays the main focus of the site which is to educate people about the dangers sharks are in⋅⋅
+⋅⋅⋅Piques the interests of visiters to give them a overall impression of what the organisations is working for⋅⋅
+
+<img src="assets/images/home-page.JPG" alt="Hero and Logo image" style="max-width:100%;">
 
 ### The Footer
 
-Adds navigation options to the bottom of the webpage⋅⋅
-Featured on all 4 pages⋅⋅
-Consists of links to the main social media platforms⋅⋅
+⋅⋅⋅Adds navigation options to the bottom of the webpage⋅⋅
+⋅⋅⋅Featured on all 4 pages⋅⋅
+⋅⋅⋅Consists of links to the main social media platforms⋅⋅
+
+<img src="assets/images/footer.JPG" alt="Footer" style="max-width:100%;">
 
 ### Facts Page
 
-Provides educational information in a fun to learn way⋅⋅
-Full of eye catching colors to keep visiters attention⋅⋅
+⋅⋅⋅Provides educational information in a fun to learn way⋅⋅
+⋅⋅⋅Full of eye catching colors to keep visiters attention⋅⋅
+
+<img src="assets/images/facts.JPG" alt="Facts Page" style="max-width:100%;">
 
 ### Species Page
 
-Allows visiters to see different breeds of sharks in a striking layout⋅⋅
+⋅⋅⋅Allows visiters to see different breeds of sharks in a striking layout⋅⋅
+
+<img src="assets/images/species.JPG" alt="Species Page" style="max-width:100%;">
 
 ### Donate Page
 
-Provides users with links for different charities for people to donate to their cause of choice⋅⋅
-Raises awareness about the vast amount of organisations commited to helping sharks⋅⋅
+⋅⋅⋅Provides users with links for different charities for people to donate to their cause of choice⋅⋅
+⋅⋅⋅Raises awareness about the vast amount of organisations commited to helping sharks⋅⋅
+
+<img src="assets/images/donate.JPG" alt="Donate Page" style="max-width:100%;">
 
 ### Future features to implement
 
-Plan to create corresponding social media sites and link them in the footer⋅⋅
-Plan to link and provide information to local services that aid sharks and marine life in emergencies⋅⋅
+⋅⋅⋅Plan to create corresponding social media sites and link them in the footer⋅⋅
+⋅⋅⋅Plan to link and provide information to local services that aid sharks and marine life in emergencies⋅⋅
 
 Testing
 ======
@@ -65,10 +77,10 @@ Encountered issues on mobile screens with sizing but was able to correct it by c
 Deployment
 ======
 
-The site was deployed to GitHub pages. The steps to deploy are as follows:⋅⋅
-In the GitHub repository, navigate to the Settings tab⋅⋅
-From the source section drop-down menu, select the Master Branch⋅⋅
-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.⋅⋅
+⋅⋅⋅The site was deployed to GitHub pages. The steps to deploy are as follows:⋅⋅
+⋅⋅⋅In the GitHub repository, navigate to the Settings tab⋅⋅
+⋅⋅⋅From the source section drop-down menu, select the Master Branch⋅⋅
+⋅⋅⋅Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.⋅⋅
 
 The live link can be found here - https://magq98.github.io/friends-of-fins/index.html
 
