@@ -1,15 +1,17 @@
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
-https://github.com/MagQ98/friends-of-fins/blob/master/workspace/friends-of-fins/assets/images/Responsive-screen.JPG
+![alt-text](assets/images/hammerhead-shark-sm.jpg)
+
+![alt-text]('../images/cover-image.png')
 
 Features
 ======
 
 ### Navigation Bar
 
-*Featured on all 4 webpages
-*Aids visiters in accessing information
-*Utilizes hyperlinks to navigate visitors
+⋅⋅*Featured on all 4 webpages
+⋅⋅*Aids visiters in accessing information
+⋅⋅*Utilizes hyperlinks to navigate visitors
 
 ### Hero and Logo image
 
@@ -90,3 +92,4 @@ https://www.labroots.com/trending/plants-and-animals/443/high-five-from-a-shark
 https://www.pexels.com/
 https://unsplash.com/
 https://codepen.io/brianacamp/pen/QWWOwdM
+
