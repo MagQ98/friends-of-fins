@@ -138,6 +138,28 @@ Features
 <li>Plan to link and provide information to local services that aid sharks and marine life in emergencies</li>
 </ul>
 
+Technologies Used
+======
+
+## Languages
+
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+</ul>
+
+## Frameworks & Tools
+
+<ul>
+<li>Balsamiq</li>
+<li>Tinypng</li>
+<li>Git</li>
+<li>GitHub</li>
+<li>Gitpod</li>
+<li>Google Fonts</li>
+<li>Font Awsome</li>
+</ul>
+
 Testing
 ======
 
