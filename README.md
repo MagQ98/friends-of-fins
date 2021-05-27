@@ -15,7 +15,7 @@ User Experience
 <li>A simple and efficient navigation system, suitable for any age</li>
 <li>Bright and eye-catching presentation</li>
 <li>Good accessibility</li>
-<li>High quality photos and fuctioning videos</li>
+<li>High quality photos and functioning videos</li>
 <li>Clickable links that lead to external sites for more information</li>
 <li>Factual information from reliable sources</li>
 <li>A trustworthy source of information regarding donating</li>
@@ -51,6 +51,10 @@ Design
 <p>A species page containing a gallery.</p>
 <p>A donation page with relevant, trustworthy links to donate.</p>
 
+### Color
+<p>For the colour scheme blues, greys and whites were chosen to match the colours of images on the page and also the colour theme of sharks themselves</p>
+<p>After deciding on the colour I tested them on WebAIM to make sure the contrast between them was right</p> 
+
 ### Typography
 <p>Open sans was used as a heading and Roboto was used for text. Both fonts were found on Googlefonts and they compliment each other in attractive way that works well throughout the site</p>
 
@@ -78,10 +82,10 @@ Features
 ### Navigation Bar
 <ul>
 <li>Featured on all 4 webpages</li>
-<li>Aids visiters in accessing information</li>
+<li>Aids visitors in accessing information</li>
 <li>Utilizes hyperlinks to navigate visitors</li>
 </ul>
-<img src="assets/images/navbar.JPG" alt="Navigation Bar" style="max-width:100%;">
+<img src="assets/images/navbar1.JPG" alt="Navigation Bar" style="max-width:100%;">
 
 ### Hero and Logo image
 <ul>
@@ -94,7 +98,7 @@ Features
 ### Home Page
 <ul>
 <li>Displays the main focus of the site which is to educate people about the dangers sharks are in</li>
-<li>Piques the interests of visiters to give them a overall impression of what the organisations is working for</li>
+<li>Piques the interests of visitors to give them a overall impression of what the organisations is working for</li>
 </ul>
 <img src="assets/images/home-page.JPG" alt="Home page" style="max-width:100%;">
 
@@ -104,25 +108,27 @@ Features
 <li>Featured on all 4 pages</li>
 <li>Consists of links to the main social media platforms</li>
 </ul>
-<img src="assets/images/footer.JPG" alt="Footer" style="max-width:100%;">
+<img src="assets/images/footer1.JPG" alt="Footer" style="max-width:100%;">
 
 ### Facts Page
 <ul>
 <li>Provides educational information in a fun to learn way</li>
-<li>Full of eye catching colors to keep visiters attention</li>
+<li>Full of eye catching colors to keep visitors attention</li>
+<li>Has a zoom increase when you hover over buttons to encourage further exploration of the content</li>
 </ul>
 <img src="assets/images/facts.JPG" alt="Facts Page" style="max-width:100%;">
 
 ### Species Page
 <ul>
-<li>Allows visiters to see different breeds of sharks in a striking layout</li>
+<li>Allows visitors to see different breeds of sharks in a striking layout</li>
+<li>Has a zoom increase when you hover to make each picture stand out</li>
 </ul>
-<img src="assets/images/species.JPG" alt="Species Page" style="max-width:100%;">
+<img src="assets/images/species1.JPG" alt="Species Page" style="max-width:100%;">
 
 ### Donate Page
 <ul>
 <li>Provides users with links for different charities for people to donate to their cause of choice</li>
-<li>Raises awareness about the vast amount of organisations commited to helping sharks</li>
+<li>Raises awareness about the vast amount of organisations committed to helping sharks</li>
 </ul>
 <img src="assets/images/donate.JPG" alt="Donate Page" style="max-width:100%;">
 
@@ -135,7 +141,7 @@ Features
 Testing
 ======
 
-## Vaildator Testing
+## Validator Testing
 
 ### Html
 No errors were returned when passing through the official W3C validator
@@ -143,16 +149,22 @@ No errors were returned when passing through the official W3C validator
 ### Css
 No errors were found when passing through the official (Jigsaw) validator
 
-### Fixed Bugs
-Encountered issues on mobile screens with sizing but was able to correct it by changing the viewport
+### Fixed Bugs or Issues
+<ul>
+<li>Encountered an issue on mobile screens with sizing. When the site was viewed on a mobile screen the header was zoomed out and was left with a large white padding on the right side. I was able to correct this bug by changing the viewport initial scale to 0.5 instead of 1.</li>
+<li>Encountered an issue with the facts page. When the facts were hovered on the zoom effect worked but in the process some of the content was pushed off screen and not viewable. I was able to fix this by reducing the padding on the content.</li>
+<li>While creating my website, the original concept was to make the heading colors the same as the hero image picture color but when it was run through a contrast color checker WebAIM, it failed. So instead I had to choose a darker shade of blue for my overall theme which has a contrast ratio of 4.7:1.</li>
+</ul>
+
+<img src="assets/images/fact-bug.JPG" alt="Bug on Fact page" style="max-width:100%;">
 
 Deployment
 ======
 
-<p>The site was deployed to GitHub pages. The steps to deploy are as follows:</p>
-<p>In the GitHub repository, navigate to the Settings tab</p>
-<p>From the source section drop-down menu, select the Master Branch</p>
-<p>Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.</p>
+<p>The site was deployed to GitHub pages. The steps I used to deploy are as follows:</p>
+<p>In my GitHub repository, I navigated to the Settings tab</p>
+<p>From the source section drop-down menu, I selected the Master Branch</p>
+<p>Once the master branch was selected, the page was automatically refreshed with a detailed ribbon display to indicate the successful deployment.</p>
 
 The live link can be found here - https://magq98.github.io/friends-of-fins/index.html
 
@@ -165,7 +177,7 @@ Images not referenced below are owned by the developer.
 
 <p>https://www.fisheries.noaa.gov/feature-story/12-shark-facts-may-surprise-you</p>
 <p>https://www.wwf.org.uk/learn/fascinating-facts/sharks</p>
-<p>https://kidsanimalsfacts.com/saw-shark-facts-for-kids/#:~:text=Sharks-,</p><p>Saw%20Shark%20Facts%20for%20Kids,do%20not%20have%20anal%20fins.</p>
+<p>https://kidsanimalsfacts.com/saw-shark-facts-for-kids/#:~:text=Sharks-,</p>
 <p>https://www.marineconservation.org.au/actions/donate-sharks/#:~:text=We%20must%20deman</p>
 
 ### Media
