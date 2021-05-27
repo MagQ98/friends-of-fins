@@ -1,4 +1,4 @@
-<img src="assets/images/responsive.JPG" alt="Responsive Mockup" style="max-width:100%;">
+<img src="assets/images/responsive1.JPG" alt="Responsive Mockup" style="max-width:100%;">
 
 User Experience
 ======
