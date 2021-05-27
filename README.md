@@ -162,7 +162,7 @@ Deployment
 ======
 
 <p>The site was deployed to GitHub pages. The steps I used to deploy are as follows:</p>
-<p>In my GitHub repository, I navigated to the Settings tab</p>
+<p>In my GitHub repository https://github.com/MagQ98/friends-of-fins, I navigated to the Settings tab</p>
 <p>From the source section drop-down menu, I selected the Master Branch</p>
 <p>Once the master branch was selected, the page was automatically refreshed with a detailed ribbon display to indicate the successful deployment.</p>
 
