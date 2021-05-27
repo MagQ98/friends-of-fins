@@ -141,14 +141,14 @@ Features
 Technologies Used
 ======
 
-## Languages
+### Languages
 
 <ul>
 <li>HTML</li>
 <li>CSS</li>
 </ul>
 
-## Frameworks & Tools
+### Frameworks & Tools
 
 <ul>
 <li>Balsamiq</li>
